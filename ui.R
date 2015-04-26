@@ -32,8 +32,8 @@ shinyUI(pageWithSidebar(
                      br(),
                      p("Notes"),
                      p("The color of the graph can be changed with the radiobutton."),
-                     p("The values for the standard population distribution are 10.000 rnorm and 5 sd"),
-                     p("The values for the responder distribution are 1.000 rnorm and 1 sd")                     
+                     p("The values for the standard population distribution are 10.000 rnorm and 10 sd"),
+                     p("The values for the responder distribution are 1.000 rnorm and 4 sd")                     
                      ),
             tabPanel("Plot", plotOutput("newHist"))
         )
